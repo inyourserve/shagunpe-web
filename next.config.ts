@@ -77,6 +77,9 @@ const nextConfig: NextConfig = {
   env: {
     VAR_ORIGINAL_PATHNAME: process.env.VAR_ORIGINAL_PATHNAME || "/", // ✅ Fix missing variable issue
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;

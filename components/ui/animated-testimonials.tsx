@@ -173,4 +173,3 @@ export const AnimatedTestimonials = ({
     </section>
   )
 }
-
