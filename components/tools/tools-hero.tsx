@@ -33,7 +33,8 @@ export function ToolsHero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <form className="flex w-full sm:w-auto gap-2">
+              
+              {/* <form className="flex w-full sm:w-auto gap-2">
                 <Input
                   type="email"
                   placeholder="Enter your email address"
@@ -42,10 +43,10 @@ export function ToolsHero() {
                 <button className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors whitespace-nowrap">
                   Get Access
                 </button>
-              </form>
+              </form> */}
             </div>
 
-            <div className="mt-8 grid grid-cols-3 gap-4 md:gap-8 max-w-lg mx-auto lg:mx-0">
+            {/* <div className="mt-8 grid grid-cols-3 gap-4 md:gap-8 max-w-lg mx-auto lg:mx-0">
               <div className="text-center">
                 <div className="text-xl md:text-3xl font-bold text-gray-900 mb-1">6+</div>
                 <div className="text-xs md:text-sm text-gray-600">Free Tools</div>
@@ -58,7 +59,7 @@ export function ToolsHero() {
                 <div className="text-xl md:text-3xl font-bold text-gray-900 mb-1">4.8★</div>
                 <div className="text-xs md:text-sm text-gray-600">User Rating</div>
               </div>
-            </div>
+            </div> */}
           </motion.div>
 
           <motion.div

@@ -6,17 +6,17 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react"
 export function OfficeLocations() {
   const offices = [
     {
-      title: "Corporate Office",
-      address: "91 Springboard, Koramangala Industrial Layout, Bangalore - 560095",
-      phone: "+91 80123 45678",
-      email: "corporate@shagunpe.com",
+      title: "Registered Office",
+      address: "VILL, BANSOHI, PANCHDURGAULI, Bansohi, Chapra, Saran- 841417, Bihar",
+      phone: "+91 6204 349329",
+      email: "office@shagunpe.in",
       hours: "Mon - Fri, 9:00 AM - 6:00 PM",
     },
     {
-      title: "Regional Office - North",
-      address: "WeWork Galaxy, Sector 44, Gurugram, Haryana - 122002",
-      phone: "+91 80123 45679",
-      email: "north@shagunpe.com",
+      title: "Corporate Office",
+      address: "UGF03 RISE SHOPLEX TECHZONE -IV GREATER NOIDA -201306",
+      phone: "+91 6204 349329",
+      email: "office@shagunpe.in",
       hours: "Mon - Fri, 9:00 AM - 6:00 PM",
     },
   ]
